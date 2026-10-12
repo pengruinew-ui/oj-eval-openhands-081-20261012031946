@@ -72,7 +72,7 @@ int main() {
             for (int i = 1; i <= n; i++) {
                 for (auto& e : graph[i]) {
                     e.cap = 1;  // Reset capacity to 1
-n                    // The reverse edge will be updated in addEdge
+                    // The reverse edge will be updated in addEdge
                 }
             }
             total += maxFlow(a, b);
